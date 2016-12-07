@@ -6,7 +6,11 @@ function iterativeLog(array){
 
 function iterate(callback){
 var animals= new Array("dogs","cats","birds");
-animals.forEach((callback)=>{
+animals.forEach(callback)
 return animals
-});
+}
+
+
+function doToArray(array, callback){
+  array.forEach(callback)
 }
