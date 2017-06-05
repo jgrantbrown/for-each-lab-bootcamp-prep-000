@@ -1,15 +1,14 @@
 function iterativeLog(array){
-  array.forEach((element, index, array) => {
-  console.log(`${index}: ${element}`)
-})
+  array.forEach((element,index, array)=>{
+    console.log(`${index}: ${element}`)
+  })
 }
 
 function iterate(callback){
-var animals= new Array("dogs","cats","birds");
-animals.forEach(callback)
-return animals
+  var array=['one','love','jah']
+  array.forEach(callback)
+  return array
 }
-
 
 function doToArray(array, callback){
   array.forEach(callback)
